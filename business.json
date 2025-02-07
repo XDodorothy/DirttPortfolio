@@ -381,7 +381,7 @@
             "author": "DiRTT",
             "title": "Réaliser un site Web de films WP avec API et PHP",
             "description": "Le but de ce projet est de créer un mini site web de 11 pages (pour présenter mes tops 10) et 2 pages techniques + une fonction de recherche",
-            "url": "http://localhost/integrationIII/Portfolio/portfolio.php",
+            "url": null,
             "urlToImage1": "images/APIDivi1.png",
             "urlToImage": [
                 { "lien": "images/APIDivi1.png"},
@@ -390,7 +390,7 @@
             ],
             "video": null,
             "publishedAt": "2024",
-            "contrainte": "Projet scolaire. Première expérience avec WP Divi, API et PHP, les trois ensemble.",
+            "contrainte": "Projet scolaire. Première expérience avec WP Divi, API et PHP, les trois ensemble. POUR DES RAISONS HORS D EMON CONTROL, CE SITE N'EST PLUS ACCESSIBLE (PAS DE LIEN POUR VISUALISER).",
             "genres": [
                 {
                     
