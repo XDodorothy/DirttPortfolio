@@ -1,0 +1,8 @@
+Rhino
+Renardeau
+Cheval
+Rat
+Abeille
+Éléphant
+Tarantule
+Grenouille
