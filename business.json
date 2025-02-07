@@ -1,0 +1,499 @@
+{
+
+    "articles": [
+        {
+            "id": 0,
+            "author": "DiRTT",
+            "title": "Aqualabyrithe pour poissons Zèbre",
+            "description": "L'Aqua-Labyrinth a été conçu pour offrir un enrichissement modulaire facile à nettoyer et à assembler, et ajoute de la complexité à l'environnement du poisson zèbre",
+            "url": "https://drive.google.com/drive/folders/1dNNbJ5SgoIOGWnS9fpx4RT_CMYSKUnc6?usp=sharing",            
+            "urlToImage1": "images/Figure 1.png",
+            "urlToImage": [
+                { "lien": "images/Figure2.jpg"},
+                { "lien": "images/prototype.png"}
+            ],
+            "video": "images/fishtank.mp4",
+            "publishedAt": "2021",
+            "contrainte": "Travail scolaire, puis de travail en laboratoire. Le magazine dans le fichier à visualiser contient mon article à la page 34.",
+            "genres": [
+                {
+                    
+                    "name": "Design"
+                }
+            ],
+            "langues": [
+
+
+
+            ],
+            "logiciels": [
+
+                {
+                    
+                    "name": "SolidWorks"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "author": "DiRTT",
+            "title": "Programme d'inventaire sur VBA Excel",
+            "description": "Le projet a été fait lors de mes études en génie industriel.L'idée était de faire une base de données d'inventaire afin de séparer et classer en classe A B C (80%/20%). Ces classes sont représentatives de se qui s'utilise et diminue le plus rapidement en inventaire (Classe A) versus le moins (Classe B) et ceux très spécifiques et rarement utilisés en production. Le vidéo que j'ai fait vous expliquera comment le programme fonctionne (La vidéo est en anglais)",
+            "url": "https://drive.google.com/file/d/1Mrf7xthFl7R51DVFBOOocIzrDzeyDdbh/view?usp=sharing",            
+            "urlToImage1": "images/ExcelVBA.png",
+            "urlToImage": [
+                { "lien": "images/ExcelVBA.png"}
+            ],
+            "video": "images/VBA Tool Teledyne-D.mp4",
+            "publishedAt": "2021",
+            "contrainte": "Projet d'équipe lors d'un cours de génie industriel. Les données ont été allégées pour être supporter par le VBA dans Excel.",
+            "genres": [
+                {
+                    
+                    "name": "Backend"
+                }
+            ],
+            "langues": [
+                {
+                    
+                    "name": "VBA"
+                }
+
+
+            ],
+            "logiciels": [
+
+                {
+                  
+                    "name": "Excel"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "author": "DiRTT",
+            "title": "Club Grands Danois du Québec",
+            "description": "Le Club Grand Danois Québec est un club de race à but non lucratif (OBNL). Ils m'ont contacté afin de refaire leur présence sur le web. Ainsi, ils m'ont demandé de refaire complètement leur site web, qui datait de 2016.",
+            "url": "https://cgdquebec.com/",
+            "urlToImage1": "images/CGDQ_accueil.png",
+            "urlToImage": [
+                { "lien": "images/CGDQ_accueil.png"}
+            ],
+            "video": null,
+            "publishedAt": "2023",
+            "contrainte": "Les photos du site web proviennent des différents éleveurs du Club afin de bien représenter les standard de la race du Grand Danois. La qualité et les choix de photos étaient donc restrictif.",
+            "genres": [
+                {
+                    
+                    "name": "Frontend"
+                },
+                {
+                    
+                    "name": "Design"
+                }
+            ],
+            "langues": [
+
+
+            ],
+            "logiciels": [
+
+                {
+                    
+                    "name": "Divi WordPress"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "author": "DiRTT",
+            "title": "Kym Turgeon Hypnothérapie - HTML/CSS pures",
+            "description": "Ce site web avait été fait afin de me pratiquer à travailler avec les languages HTML et CSS et pour monter un site web d'une amie qui commençait sa carrière en hypnothérapie. Ce travail a été fait en première session de mon programme. NOTE: Un autre projet de même site web fut créé avec WordPress et le thème de Divi.",
+            "url": "http://localhost/integrationIII/Portfolio/Intégration/KymHypnose-HTMLCSS/index.html",
+            "urlToImage1": "images/kymHTML.png",
+            "urlToImage": [
+                { "lien": "images/kymHTML.png"}
+            ],
+            "video": null,
+            "publishedAt": "2023",
+            "contrainte": "Le mode responsive n'est pas parfait étant un projet débutant. Il importe qu'il démontre très bien mes aptitudes et motivation déjà à ce moment.",
+            "genres": [
+                {
+                  
+                    "name": "Frontend"
+                },
+                {
+                    
+                    "name": "Design"
+                }
+            ],
+            "langues": [
+                {
+                  
+                    "name": "HTML/CSS"
+                }
+
+            ],
+            "logiciels": [
+                {
+                    
+                    "name": "VSC"
+                },
+                {
+                    
+                    "name": "Photoshop"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "author": "DiRTT",
+            "title": "Conceptualisation d'une galerie d'art en ligne",
+            "description": "Projet scolaire ayant pour but d'apprivoiser Adobe XD. Une galerie d'art fictive a été conçu pour montrer les divers atouts de XD (carrousel, Menus, Transition, etc)",
+            "url": "https://xd.adobe.com/view/de590edd-1867-4287-bffb-49483866706f-8b0a/",
+            "urlToImage1": "images/GalerieArt.png",
+            "urlToImage": [
+                { "lien": "images/GalerieArt.png"}
+            ],
+            "video": null,
+            "publishedAt": "2023",
+            "contrainte": "Projet scolaire. Seulement 2 modes (Mobile et Ordinateur) ont été conçu.",
+            "genres": [
+                {
+                    
+                    "name": "Design"
+                }
+            ],
+            "langues": [
+
+
+            ],
+            "logiciels": [
+                {
+                   
+                    "name": "Photoshop"
+                },
+                {
+                   
+                    "name": "Adobe XD"
+                }
+
+            ]
+        },
+        {
+            "id": 5,
+            "author": "DiRTT",
+            "title": "Refonte du site web de la Bibliothèque de Montréal",
+            "description": "Dans le cadre d'un projet d'école, je devais travailler avec Adobe XD afin de conceptualiser et refaire le site de la Bibliothèque de Montréal. Certains critères ergonomiques ont été épinglés dans les commentaires du lien du projet.",
+            "url": "https://xd.adobe.com/view/88951afe-db8b-4676-ae45-d2cdf64af4da-ddc6/grid",
+            "urlToImage1": "images/BiblioMTL.png",
+            "urlToImage": [
+                { "lien": "images/BiblioMTL.png"}
+            ],
+            "video": null,
+            "publishedAt": "2024",
+            "contrainte": "Projet scolaire qui mettait l'emphase sur le visuel en mode 1080 x 1920 px.",
+            "genres": [
+                {
+                   
+                    "name": "Design"
+                }
+            ],
+            "langues": [
+
+
+            ],
+            "logiciels": [
+                {
+                   
+                    "name": "Photoshop"
+                },
+                {
+                    
+                    "name": "Adobe XD"
+                }
+
+            ]
+        },
+        {
+            "id": 6,
+            "author": "DiRTT",
+            "title": "Club de Trail de Bromont - WIX",
+            "description": "Audrey Larroquette, ma cliente et mon amie m'a demandé de l'iade afin de mettre à niveau certaines pages de sont site web.",
+            "url": "https://clubdetraildebromont.com/",
+            "urlToImage1": "images/CTB1.png",
+            "urlToImage": [
+                
+                {"lien": "images/CTB1.png"},
+                { "lien": "images/CTB2png"},
+                { "lien": "images/CTB3.png"}
+            
+            ],
+            "video": null,
+            "publishedAt": "2024",
+            "contrainte": "Le site devait être facilement modifiable par elle. C'est pour cette raison que je n'ai pas utilisé de code.",
+            "genres": [
+                {
+                    
+                    "name": "Frontend"
+                }
+            ],
+            "langues": [
+
+            ],
+            "logiciels": [
+
+                {
+                    
+                    "name": "WIX"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "author": "DiRTT",
+            "title": "Page d'accueil LinkedIn et ses atouts",
+            "description": "Projet de deuxième session ayant pour but de faire une page LinkedIn avec HTML et CSS pures. Il se devait d'être responsive pour le mode ordinateur (1080px), tablette (820px) et mobile (490px).",
+            "url": "http://localhost/integrationIII/Portfolio/Intégration/PageLinkedIn-HTMLCSS/index.html",
+            "urlToImage1": "images/LinkedIn.png",
+            "urlToImage": [
+                { "lien": "images/LinkedIn.png"}
+            ],
+            "video": null,
+            "publishedAt": "2024",
+            "contrainte": "Projet scolaire. C'est une page visuelle n'ayant pas de lien ou icon cliquable.",
+            "genres": [
+                {
+                    
+                    "name": "Backend"
+                },
+                {
+                    
+                    "name": "Frontend"
+                }
+            ],
+            "langues": [
+                {
+                   
+                    "name": "HTML/CSS"
+                }
+
+            ],
+            "logiciels": [
+                {
+                    
+                    "name": "VSC"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "author": "DiRTT",
+            "title": "Projet REACT.js d'un magasin en ligne",
+            "description": "Le projet consiste à développer à l'aide de reactJS et JSON. Le site permet aux utilisateurs de : ✓ Afficher tous les produits. ✓ Afficher tous les produits triés sur le prix. ✓ Afficher ✓ Afficher les détails d’un produit donné. ✓ Ajouter un produit dans le panier. ✓ Afficher les produits présents dans le panier. ✓Supprimer un produit du panier.",
+            "url": "https://github.com/XDodorothy/REACT_Boutique",
+            "urlToImage1": "images/BoutiqueREACT-items.png",
+            "urlToImage": [
+                { "lien": "images/BoutiqueREACT-items.png"},
+                { "lien": "images/BoutiqueREACT-shoppingbag.png"},
+                { "lien": "images/BoutiqueREACT-bag.png"},
+                { "lien": "images/BoutiqueREACT.png"}
+            ],
+            "video": null,
+            "publishedAt": "2024",
+            "contrainte": "Projet scolaire. Il fallait faire seulement les pages créé dans mon projet. L'ajout au panier ne pouvait pas se faire ailleur que sur la fiche des items. Le mode responsive n'a pas été tenue en compte ici.",
+            "genres": [
+                {
+                    
+                    "name": "Backend"
+                },
+                {
+                    
+                    "name": "Frontend"
+                }
+            ],
+            "langues": [
+                {
+                    
+                    "name": "HTML/CSS"
+                },
+                {
+                    
+                    "name": "JS"
+                },
+                {
+                    
+                    "name": "REACT.js"
+                }
+
+            ],
+            "logiciels": [
+                {
+                   
+                    "name": "VSC"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "author": "DiRTT",
+            "title": "Site de Nouvelles avec API Rest",
+            "description": "Réalisation d’un site web php / js présentant des articles de nouvelles basés sur une API Rest.",
+            "url": "http://localhost/intégrationIII/TP1",
+            "urlToImage1": "images/APINews.png",
+            "urlToImage": [
+                { "lien": "images/APINews.png"}
+            ],
+            "video": null,
+            "publishedAt": "2024",
+            "contrainte": "Projet scolaire. Utilisation d'un gabarit prédéfini pour les nouvelles. Le mode responsive n'a pas été considéré, donc il pourrait ne pas être parfait.",
+            "genres": [
+                {
+                    
+                    "name": "Backend"
+                },
+                {
+                    
+                    "name": "Frontend"
+                }
+
+            ],
+            "langues": [
+                {
+                   
+                    "name": "HTML/CSS"
+                },
+                {
+                    
+                    "name": "PHP"
+                }
+
+            ],
+            "logiciels": [
+                {
+                    
+                    "name": "VSC"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "author": "DiRTT",
+            "title": "Réaliser un site Web de films WP avec API et PHP",
+            "description": "Le but de ce projet est de créer un mini site web de 11 pages (pour présenter mes tops 10) et 2 pages techniques + une fonction de recherche",
+            "url": "http://localhost/integrationIII/Portfolio/portfolio.php",
+            "urlToImage1": "images/APIDivi1.png",
+            "urlToImage": [
+                { "lien": "images/APIDivi1.png"},
+                { "lien": "images/APIDivi2.png"},
+                { "lien": "images/APIDivi3.png"}
+            ],
+            "video": null,
+            "publishedAt": "2024",
+            "contrainte": "Projet scolaire. Première expérience avec WP Divi, API et PHP, les trois ensemble.",
+            "genres": [
+                {
+                    
+                    "name": "Backend"
+                },
+                {
+                    
+                    "name": "Frontend"
+                },
+                {
+                    
+                    "name": "Design"
+                }
+
+            ],
+            "langues": [
+                {
+                    
+                    "name": "HTML/CSS"
+                },
+                {
+                    
+                    "name": "PHP"
+                },
+                {
+                  
+                    "name": "JS"
+                }
+
+            ],
+            "logiciels": [
+                {
+                    
+                    "name": "VSC"
+                },
+                {
+                    
+                    "name": "Divi WordPress"
+                }
+            ]
+        } ,
+        {
+            "id": 11,
+            "author": "DiRTT",
+            "title": "Réaliser un site Web de films REACT.js",
+            "description": "Le but de ce projet est de créer un site web avec REACT.js qui affiche les films et acteurs de l'API de TMBD (The Movie Database). Implémentation de carrousels, menu de navigation, effet hover et tout cela en cohésion. Nous devions faire une maquette du visuelle dans Adobe XD (https://xd.adobe.com/view/cba1733d-599b-492d-87ae-f5072813497f-9ef2/?fullscreen).",
+            "url": "https://github.com/XDodorothy/projetIntegration-Thema",
+            "urlToImage1": "images/accueil.png",
+            "urlToImage": [
+                { "lien": "images/accueil.png"},
+                { "lien": "images/search.png"},
+                { "lien": "images/acteurs.png"},
+                { "lien": "images/menufooter.png"}
+            ],
+            "video": null,
+            "publishedAt": "2024",
+            "contrainte": "Projet scolaire en équipe de 2. Je me suis chargé du design et de la partie intégration + programmation dans REACT.js. COntrainte de temps et plusieurs problèmes reliés à des carrousels que j'ai réussi à régler.",
+            "genres": [
+                {
+                    
+                    "name": "Backend"
+                },
+                {
+                    
+                    "name": "Frontend"
+                },
+                {
+                    
+                    "name": "Design"
+                }
+
+            ],
+            "langues": [
+                {
+                    
+                    "name": "HTML/CSS"
+                },
+                {
+                    
+                    "name": "REACT.js"
+                },
+                {
+                  
+                    "name": "JS"
+                },
+                {
+                  
+                    "name": "Bootstrap"
+                }
+
+            ],
+            "logiciels": [
+                {
+                    
+                    "name": "VSC"
+                },
+                {
+                    
+                    "name": "Adobe XD"
+                }
+            ]
+        }   
+
+        ]
+        }
+       
