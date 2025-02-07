@@ -1,0 +1,125 @@
+body {
+  font-family:  "Fira Sans", sans-serif;
+}
+nav {
+  font-size: 15px;
+}
+#Nav li {
+  margin-right: 10px;
+  padding: 0 10px;
+  list-style-type: none;
+}
+#Nav .badge
+{font-size: 8px;
+  margin-left: -4px;
+  
+}
+#Nav .Premium {
+  color: rgb(205, 176, 16);
+}
+#Nav .linkedin {
+  padding: 0 10px;
+  border-right: 1px solid white;
+}
+#Nav .fa-linkedin {
+  margin-right: 0px;
+  padding: 5px;
+  border-radius: 2px;
+  color: white;
+  background-color: #0077b5;
+}
+
+
+/* Color of the links BEFORE scroll */
+#Nav .navbar-scroll .nav-link,
+#Nav .navbar-scroll .navbar-toggler-icon,
+#Nav .navbar-scroll .navbar-brand {
+  color: #262626;
+}
+
+/* Color of the navbar BEFORE scroll */
+#Nav .navbar-scroll {
+  background-color: #FFC017;
+}
+
+/* Color of the links AFTER scroll */
+#Nav .navbar-scrolled .nav-link,
+#Nav .navbar-scrolled .navbar-toggler-icon,
+#Nav .navbar-scroll .navbar-brand {
+  color: #262626;
+}
+
+/* Color of the navbar AFTER scroll */
+#Nav .navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+#Nav .navbar.navbar-scroll.navbar-scrolled {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+#Nav .navbar-brand {
+  font-size: unset;
+  height: 3.5rem;
+}
+#Nav .loupe::before{
+  content: '\f002'; /*UTILISATION FONT AWESOME ICONS*/
+  font-family: 'FontAwesome';
+  font-size: 20px;
+  position: absolute;
+  left: 3px;
+  top: 0;
+  margin:0;
+  color: gray;
+}
+#Nav .fas, span {
+  color: white;
+  line-height: normal;
+  
+}
+
+#Nav .navbar-toggler:focus, #Nav .navbar-toggler:active {
+  outline: 0;
+}
+
+/* hide close when burger shown */
+#Nav .navbar-toggler.collapsed .close-icon {
+  display: none;
+}
+
+#Nav .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  display: inline;
+}
+@media screen and (max-width: 820px){
+  
+  #Nav .linkedin {
+    
+    border-right: none;
+  }
+  
+  
+}
+
+@media screen and (max-width: 700px){
+  
+  #Nav .linkedin {
+    
+    border-right: none;
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 500px){
+  
+  #Nav .linkedin {
+    
+    border-right: none;
+  }
+  
+  
+  
+  
+}

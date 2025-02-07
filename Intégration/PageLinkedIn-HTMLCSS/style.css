@@ -1,0 +1,82 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+a {
+  font-family:  "Fira Sans", sans-serif;
+  font-size: 15px;
+  color: steelblue;
+  text-decoration: none;
+}
+.table {
+  
+  width: 100vw;
+  height: 100vh;
+  perspective: 1000px;
+  
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  
+}
+#GO{
+  display: flex;
+  margin-left: 25%;
+}
+
+
+.card:hover .overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 0, 0, 0.2);
+  overflow: auto;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card {
+  position: relative;
+  width: 160px;
+  height: 370px;
+  cursor: pointer;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px inset #d2b400;
+  border-radius: 9px;
+  transition: transform 1.2s ease;
+  transform-style: preserve-3d;
+  animation: float 1.2s ease infinite alternate;
+}
+
+.card .clow-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+button:hover, a:hover {
+  background-color: steelblue;
+  color: white;
+  transition: 0.5s;
+}
+button {
+  color: steelblue;
+  width: fit-content;
+  border: 2px solid gray;
+  border-radius: 3px;
+}
+
+

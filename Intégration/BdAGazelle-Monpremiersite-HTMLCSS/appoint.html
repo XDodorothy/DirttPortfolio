@@ -1,0 +1,287 @@
+<html>
+    
+    <!-- Click On exclamation mark and Tab to create the HTML file -->
+        <head>
+            <meta name="viewport" content="width=device-width", initial-scale="1.0">
+            <title>BD'A - Gazelle </title>
+            <meta name="keywords" content="beurre d'arachide, peanut butter, organic peanut butter, beurre de peanut, beurre d'arachide naturel, beurre d'arachides">
+            <!-- Below links to the css sheet  -->
+            <link rel="stylesheet" href="style.css">
+            <!-- Below is the link for awesome icon and cdn -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- Below is for the Font format download from Google Font-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        </head>
+        <body>
+            
+            <!-- Page 1 -->
+            <section id="Appoint">
+                
+                <img src="images/Logo Transparent.jpg.png" class="Logo">
+                <!-- Title and main nav. buttons -->
+                <div class="a-back">
+                  <!-- action is sending to the php file and via the post method -->
+                <form action="form-hendler.php" method="post" id="ft-form" method="POST" accept-charset="UTF-8">
+                    <h2> PLANIFIER UN REMPLISSAGE</h2>
+                    <fieldset>
+                      <legend>VOS INFORMATIONS</legend>
+                      <div class="two-cols">
+                      <label>
+                        <p>Prénom</p>
+                        <input type="text" name="prénom" required>
+                      </label>
+                      <label>
+                        <p>Non de famille</p>
+                        <input type="text" name="nomF" required>
+                      </label>
+                    </div>
+                      <div class="two-cols">
+                        <label>
+                          <p>Adresse courriel</p>
+                          <input type="email" name="email" required>
+                        </label>
+                        <label>
+                          <p># Téléphone</p>
+                          <input type="tel" name="phone">
+                        </label>
+                     
+                      </div>
+                    </fieldset>
+                    <fieldset>
+                        
+                      <legend>DATE & COMMANDE</legend>
+                      <p style="color:green;"> **Remplir un formulaire par différent choix de beurre**</p>
+                      <div class="two-cols">
+                        <label>
+                          <p>Date</p>
+                          <input type="date" name="DATE DE REMPLISSAGE DEMANDÉE" required>
+                        </label>
+                        <div class="inline">
+                            <label>
+                              <p>Heure</p>
+                                <input type="radio" name="heure" value="heure du rendez-vous" checked>
+                                8h
+                              </label>
+                              <label>
+                                <input type="radio" name="heure" value="heure du rendez-vous">
+                                8h30
+                              </label>
+                              <label>
+                                <input type="radio" name="heure" value="heure du rendez-vous">
+                                8h30
+                              </label>
+                              <label>
+                                <input type="radio" name="heure" value="heure du rendez-vous">
+                                9h
+                              </label>
+                              <label>
+                                <input type="radio" name="heure" value="heure du rendez-vous">
+                                9h30
+                              </label>
+                              <hr>
+                              <label>
+                                <input type="radio" name="heure" value="heure du rendez-vous">
+                                18h00
+                              </label>
+                              <label>
+                                <input type="radio" name="heure" value="heure du rendez-vous">
+                                18h30
+                              </label>
+                              <label>
+                                <input type="radio" name="heure" value="heure du rendez-vous">
+                                19h00
+                              </label>
+            
+                        </div>
+                      </div>
+                      <p>Choix du beurre</p>
+                      <div class="inline">
+                        <label>
+                          <input type="radio"name="Choix du beurre">
+                            
+                            Arachide rôtie à sec
+                          </label>
+                          <label>
+                            <input type="radio"name="Choix du beurre" >
+                      
+                            Arachide rôtie à sec ORGANIQUE
+                          </label>
+                          <label>
+                            <input type="radio" name="Choix du beurre">
+         
+                            Arachide ESPAGNOLE rôtie à sec
+                          </label>
+                          <label>
+                            <input type="radio" name="Choix du beurre">
+                            
+                            Amande rôtie à sec
+                          </label>
+                          </div>
+                          <p>Choix de texture</p>
+                          <div class="inline">
+                            <label>
+                                <input type="radio" name="Choix de texture" value="cremeux" checked>
+                                Cremeux
+                              </label>
+                              <label>
+                                <input type="radio" name="Choix de texture" value="croquant">
+                                Croquant
+                              </label>
+            
+                        </div>
+                      <p>Choix de la sorte</p>
+                      <div class="inline">
+                        <label>
+                            <input type="radio" name="Choix de la sorte" value="Non salé" checked>
+                            Non salé
+                          </label>
+                          <label>
+                            <input type="radio" name="Choix de la sorte" value="Salé" checked>
+                            Salé
+                          </label>
+                          <label>
+                            <input type="radio" name="Choix de la sorte" value="Sucré (sirop d'érable)" checked>
+                            Sucré (sirop d'érable)
+                          </label>
+                          <label>
+                            <input type="radio" name="Choix de la sorte" value="Cacao-sucré (sirop d'érable)" checked>
+                            Cacao-sucré (sirop d'érable)
+                          </label>
+                          <label>
+                            <input type="radio" name="Choix de la sorte" value="Café" checked>
+                            Café
+                          </label>
+                          <label>
+                           <input type="radio" name="Choix de la sorte" value="Café salé" checked>
+                            Café salé
+                          </label>
+                          <label>
+                          </label>
+                          <p>Quantité approximative désirée</p>
+                      <div class="inline">
+                        <label>
+                            <input type="radio" name="Quantité approximative désirée" value="300g" checked>
+                            300g
+                          </label>
+                          <label>
+                            <input type="radio" name="Quantité approximative désirée" value="500g" checked>
+                            500g
+                          </label>
+                          <label>
+                            <input type="radio" name="Quantité approximative désirée" value="800g" checked>
+                            800g
+                          </label>
+                          <label>
+                            <input type="radio" name="Quantité approximative désirée" value="1Kg" checked>
+                            1Kg
+                          </label>
+                          <label>
+                            <input type="radio" name="Quantité approximative désirée" value="1.5Kg" checked>
+                            1.5Kg
+                          </label>
+                          <label>
+                            <input type="radio" name="Quantité approximative désirée" value="2Kg" checked>
+                            2Kg
+                          </label>
+                          <label>
+                            <input type="radio" name="Quantité approximative désirée" value=">2Kg" checked>
+                            >2Kg (Prévoir au moins 2 semaines d'avance)
+                          </label>
+                          
+            <div class="inline">
+            <textarea rows="8" placeholder="Commentaire" ></textarea>
+            
+            </div>
+            
+                    </fieldset>
+                    <div class="btns">
+                      <input type="text" name="_gotcha" value="" style="display:none;">
+                      <input type="submit" value="Envoyer la demande">
+                    </div>
+                  </form>
+                </div>
+            
+            </section>
+
+        <!-- Below is for the navigation bar--> 
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <!-- Below is to create a list-->
+                    <li><a href="web.html">ACCEUIL</a></li>
+                    <li><a href="#What">POURQUOI GAZELLE</a></li>
+                    <li><a href="#Feature">FONCTIONNEMENT</a></li>
+                    <li><a href="#service">VOIR LE MENU ET LISTE DE PRIX</a></li>
+                    <li><a href="appoint.html">PLANIFIER UN REMPLISSAGE</a></li>
+                    <li><a href="#Contacter">CONTACTER LA GAZELLE</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div id= "menuBtn">
+            <img src="images/menu.png" id="menu">
+        </div>
+   
+    <!-- Me contacter -->
+    <section id="Contacter">
+        <div class="title-text">
+            <p>CONTACT</p>
+        </div>
+        <div class="heures">
+            <div class="r-v">
+                <a href="https://www.google.ca/maps/place/Bonne+Bouffe/@45.3999407,-72.7291144,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc9ce47a227bdef:0x7fcd794d986cf398!8m2!3d45.399937!4d-72.7265341!16s%2Fg%2F1tcv117v?entry=ttu" target=_blank> <h1><i class="fa fa-heart-o"></i>Bonne Bouffe Santé</h1></a>
+                <p>185 Rue Principale, Granby, QC J2G 2V5</p>
+                <hr>
+                <p> SUR RENDEZ-VOUS SEULEMENT</p>
+                <p> Du lundi au dimanche entre 7h30 et 18h30</p>
+            </div>
+            <div class="r-v">
+                <h2>Pour ANNULER une demande de remplissage, contactez-moi par téléphone ou par courriel</h2>
+                <p><i class="fa fa-phone"></i>(438) 795-4273</p>
+                <p><i class="fa fa-envelope-o"></i>do.therrien@outlook.com</p>
+            </div>
+             </div>
+                 
+                            
+                       
+                 
+            
+            
+            
+            <div class="copyr">
+            <p>-------- <i class="fa fa-copyright"></i>Tout le site web a été conçu & programmé par Dorothée Therrien -------</p>
+            </div>
+        </div>
+    </section>
+       
+
+
+        <!-- Below is to have the Menu icon open and close properly-->
+            <script>
+                var menuBtn = document.getElementById("menuBtn")
+                var sideNav = document.getElementById("sideNav")
+                var menu = document.getElementById("menu")
+               
+                sideNav.style.right ="-250px";
+                menuBtn.onclick = function(){
+                        if(sideNav.style.right =="-250px"){
+                            sideNav.style.right ="0";
+                            menu.src ="images/close.png";    
+                    }
+                    else{
+                        sideNav.style.right="-250px";
+                        menu.src ="images/menu.png";
+                    }
+                }
+                // All animations will take exactly 1000ms
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+            </script>
+        </div>
+        </body>
+</html>

@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;;
+}
+#Reseau .card {
+  width: 350px;
+  background-color: #efefef;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  min-height: 450px;
+
+}
+
+#Reseau .image img {
+  transition: all 0.5s;
+}
+
+#Reseau .card:hover .image img {
+  transform: scale(1.25);
+}
+
+#Reseau .btn {
+  height: 140px;
+  width: 140px;  
+}
+
+#Reseau #font1 {
+  background-image: url(images/pexels-polina-zimmerman-3747560.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Reseau #font2 {
+  background-image: url(images/pexels-alesia-kozik-7069387.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Reseau #font3 {
+  background-image: url(images/pexels-matthis-volquardsen-2174722.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Reseau #font4 {
+  background-image: url(images/pexels-pixabay-267642.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Reseau #font5 {
+  background-image: url(images/pexels-alesia-kozik-7069387.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Reseau #font6 {
+  background-image: url(images/pexels-karolina-grabowska-5993566.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Reseau #font7 {
+  background-image: url(images/pexels-pixabay-267642.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Reseau #font8 {
+  background-image: url(images/pexels-polina-zimmerman-3747560.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Reseau .name {
+  font-size: 20px;
+  
+}
+
+#Reseau .idd {
+  font-size: 12px;
+  font-weight: 400;
+  color:#a0a0a0;
+}
+
+#Reseau .idd1 {
+  font-size: 12px;
+  
+}
+
+
+#Reseau .follow {
+  font-size: 12px;
+  font-weight: 400;
+  color:#a0a0a0;
+  bottom: 95px;
+  position: absolute;
+  
+}
+
+#Reseau .btn1 {
+  height: 40px;
+  width: 150px;
+  border: 2px solid Steelblue;
+  font-size: 15px;
+  color: Steelblue;
+  position: absolute;
+  bottom: 50px;
+  left: 34px;
+}
+#Reseau .btn1:hover {
+  background-color: #0077b5;
+  color: white;
+  transition: all 0.5s;
+}
+
+#Reseau .text span {
+  font-size: 13px;
+  color: #545454;
+  font-weight: 500;
+}
+
+#Reseau .icons i {
+  font-size: 19px;
+}
+
+#Reseau hr .new1 {
+  border: 1px solid;
+}
+
+#Reseau .join {
+  font-size: 14px;
+  color: #a0a0a0;
+  font-weight: bold;
+}
+
+#Reseau .date {
+  background-color: #ccc;
+}
+#Reseau h3, #Reseau a{
+  font-size: 20px;
+  color: #545454;
+  text-decoration: none;
+  line-height: 1;
+}
+#Reseau .test {
+  text-align: right;
+}
+
+@media screen and (max-width: 820px){
+  
+  #Reseau .btn1 {
+    
+    left: 48px;
+  }
+
+  
+}
+
+@media screen and (max-width: 500px){
+  
+  #Reseau .btn1 {
+    
+    left: 16px;
+  }
+
+  
+}

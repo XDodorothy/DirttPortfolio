@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page LinkedIn - TP1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Style CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="col sticky-top">
+        <!-- Navbar -->
+        <nav id="Nav" class="navbar navbar-expand-lg bg-secondary fixed-top">
+            <!-- Container wrapper -->
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                
+                <!-- Toggle button -->
+                
+                <button class="navbar-toggler border-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span><div class="close-icon py-1">✖</div>
+                </button>
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    
+                    <!-- Search form -->
+                    <form class="input-group loupe">
+                        <input type="text" placeholder="     Recherche"/>
+                    </form>
+                    <!-- Left links -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active d-flex flex-column " aria-current="page" href="#"><i class="fas fa-home fa-lg"></i><span class="small">Accueil</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link d-flex flex-column" aria-current="page" href="#"><i class="fas fa-user-friends fa-lg"></i><span class="small">Réseau</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex flex-column " aria-current="page" href="#"><i class="fas fa-briefcase fa-lg"></i><span class="small">Emplois</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex flex-column " aria-current="page" href="#"><i class="fas fa-comment-dots fa-lg"><span class="badge text-bg-danger">11</span></i><span class="small">Messagerie</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex flex-column" aria-current="page" href="#"><i class="fas fa-bell fa-lg"><span class="badge text-bg-danger">25</span></i><span class="small">Notifications</span></a>
+                        </li>
+                        <li class="nav-link nav-item dropdown linkedin">
+                            <a class="nav-link dropdown-toggle d-flex align-items-center text-center" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle" height="30" alt="PhotoProfile" loading="lazy"/><span class="small">Vous</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Blog</a>
+                                <a class="dropdown-item" href="#">Gallery</a>
+                                <a class="dropdown-item" href="#">List</a>
+                                <a class="dropdown-item" href="#">Layout 1</a>
+                                <a class="dropdown-item" href="#">Layout 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">User profile</a>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link d-flex flex-column" aria-current="page" href="#"><i class="fas fa-th fa-1x nav-link dropdown-toggle d-flex align-items-center" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false"></i></i><span class="small">Pour entreprise</span></a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">My profile</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="Premium" href="#" ></i>Essayez Premium</li></a>
+                    
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    </div>
+    <div class="container text-center">
+        <div class="row " >
+            <!--Sidebar-->
+            <div id="Sidebar" class="col-md-4 border z-0">
+                <div class="side_bar sticky-top border-dark-subtle">
+                    <div class="row"  >
+                        <div class="col-md">
+                            <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <div class="d-flex justify-content-between mb-3">
+                                    
+                                    <div class="p-2 nav-item">
+                                        <a class="nav-link active flex-column " aria-current="page" href="#"> <i class="fa-solid fa-user-group"></i>
+                                        </a>
+                                    </div>
+                                    <div class="p-2 titre">
+                                        <a class="nav-link active flex-column " aria-current="page" href="#"> <span class="small ">Relations </span>
+                                        </a>
+                                    </div>
+                                    <div class="p-2">
+                                        <span>890</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <!-- Collapsible wrapper -->
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <div class="d-flex justify-content-between mb-3">
+                                            <div class="p-2 ">
+                                                <a class="nav-link active flex-column " aria-current="page" href="#"><i class="fa-solid fa-user"></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-2 titre">
+                                                <a class="nav-link active flex-column " aria-current="page" href="#">
+                                                    <span class="small ">Co-équipier </span>
+                                                </a>
+                                            </div>
+                                            <div class="p-2">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="d-flex justify-content-between mb-3">
+                                            <div class="p-2 ">
+                                                <a class="nav-link active flex-column " aria-current="page" href="#">
+                                                    <i class="fa-solid fa-users"></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-2 titre">
+                                                <a class="nav-link active flex-column " aria-current="page" href="#"> 
+                                                    <span class="small ">Groupes </span>
+                                                </a>
+                                            </div>
+                                            <div class="p-2">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="d-flex justify-content-between mb-3">
+                                            <div class="p-2 ">
+                                                <a class="nav-link active flex-column " aria-current="page" href="#">
+                                                    <i class="fa-regular fa-calendar-days"></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-2 titre">
+                                                <a class="nav-link active flex-column " aria-current="page" href="#"> 
+                                                    <span class="small ">Événements </span>
+                                                </a>
+                                            </div>
+                                            <div class="p-2">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="d-flex justify-content-between mb-3">
+                                            <div class="p-2 ">
+                                                <a class="nav-link active flex-column " aria-current="page" href="#">
+                                                    <i class="fa-regular fa-file-lines"></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-2 titre">
+                                                <a class="nav-link active flex-column " aria-current="page" href="#"> 
+                                                    <span class="small ">Pages </span>
+                                                </a>
+                                            </div>
+                                            <div class="p-2">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="d-flex justify-content-between mb-3">
+                                            <div class="p-2 ">
+                                                <a class="nav-link active flex-column " aria-current="page" href="#">
+                                                    <i class="fa-regular fa-newspaper"></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-2 titre">
+                                                <a class="nav-link active flex-column " aria-current="page" href="#"> 
+                                                    <span class="small ">Nouvelles </span>
+                                                </a>
+                                            </div>
+                                            <div class="p-2">
+                                                <span>5</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="d-flex justify-content-between mb-3">
+                                            <div class="p-2 ">
+                                                <a class="nav-link active flex-column " aria-current="page" href="#">
+                                                    <i class="fa-solid fa-hashtag"></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-2 titre">
+                                                <a class="nav-link active flex-column " aria-current="page" href="#"> 
+                                                    <span class="small ">Hashtags </span>
+                                                </a>
+                                            </div>
+                                            <div class="p-2">
+                                                <span>1</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>                         
+                            </div>
+                            <!-- Toggle button -->
+                            <button class="navbar-toggler  text-center collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon btn2"><i class="fa-solid fa-chevron-down"></i><span class="small"> Voir plus</i></span></span>
+                                <div class="close-icon py-1 btn1">
+                                    <i class="fa-solid fa-chevron-up"></i> Voir moins
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md ">
+                            <div class="footer text-center text-secondary ">
+                                <pre><a href="#" class="text-reset">Info</a>        <a href="#" class="text-reset">Assistance clientèle</a></pre>
+                                <pre><a href="#" class="text-reset">Conditions générales et confidentialité</a></pre>
+                                <pre><a href="#"class="text-reset">Publicité</a>     <a href="#" class="text-reset">Solutions professionnelles</a></pre> 
+                                <pre><a href="#"class="text-reset">Téléchargez l'application LinkedIn</a>      <a href="#" class="text-reset">Plus</a></pre>   
+                                <pre><a href="#"class="text-reset"><img src="images/linkedIn.png"></a></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Sidebar-->
+            <div class="col-md mt-5">
+                <div class="row">
+                    <!--Connaissez-vous-->
+                    <div class="row border border-dark-subtle bg-light text-start mt-5 py-3 ms-0 mb-2 rounded-1 Invitation">
+                        <div class="row qui"> 
+                            <div class="col-lg-auto p-3">
+                                <img class="img-thumbnail rounded-circle" src="images/do.jpg" alt="Photo Profile" height="110" width="110" class="rounded-circle"/>
+                            </div>
+                            <div class="col-lg">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <div class="p-2 ">
+                                        <h4 class="qui">Connaissez-vous Dorothée Therrien ? Envoyez une invitation pour entrer en relation.</h4>
+                                    </div>
+                                    <div class="p-2"></div>
+                                    <div class="p-2 quoi">
+                                        <a href="#" id="X">X</a>
+                                    </div>
+                                </div>
+                                <p class="sujet">Candidate à la profession d'ingénieur | Étudiante en développement Web</p>
+                                <div class="connection"><i class="fas fa-link"></i> Jane Doe et 5 autres relations</div>
+                                
+                            </div>
+                            <!-- J'AI TESTÉ AVEC BS AVEC COL ORDER, MAIS CELA NE FONCTIONNE PAS EN MODE 820PX ... JE N'ARRIVE PAS À FAIRE CHANGER DE LIGNE LE TEXT-->
+                            <!-- <div class="col-md-4 col-lg p-3">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <div class="p-2 order-lg-1 order-xl-1">
+                                        <img class="img-thumbnail rounded-circle" src="images/do.jpg" alt="Photo Profile" height="110" width="110" class="rounded-circle"/>
+                                    </div>        
+                                    
+                                    <div class="p-2 order-lg-3 order-xl-2">
+                                        <h4 class="qui">Connaissez-vous Dorothée Therrien ? Envoyez une invitation pour entrer en relation.</h4>
+                                    </div>
+                                    
+                                    <div class="order-lg-2 order-xl-3 ms-5">
+                                        <a href="#">X</a>
+                                    </div>
+                                </div>
+                                <p class="sujet">Candidate à la profession d'ingénieur | Étudiante en développement Web</p>
+                                <div class="connection"><i class="fas fa-link"></i> Jane Doe et 5 autres relations</div>
+                                
+                            </div> -->
+                        </div>
+                        <div class="row "> 
+                            <div class="box col-lg-auto d-flex justify-content-center ">
+                                <button type="button" class="btn btn2 rounded-0 text-secondary mt-5">Ignorer</button>
+                                <button type="button" class="btn btn1 rounded-0 me-2 my-4 mt-5">Accepter</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Connaissez-vous-->
+                    <!--Invitation-->
+                    <section class="Invitation">
+                        <div class="row border border-dark-subtle py-3">
+                            <div class="col-lg-auto text-start ps-5">Invitations</div>
+                            <div class="col-lg text-end pe-5"><a href="#">Voir les 20</a></div>
+                        </div>
+                        <div class="row border border-dark-subtle bg-secondary-subtle "> 
+                            <div class="col-lg-auto p-3">
+                                <img class="img-thumbnail rounded-circle" src="images/mel.jpg" alt="Photo Profile" height="110" width="110" class="rounded-circle"/>
+                            </div>
+                            <div class="col-lg text-start pt-3">
+                                <h3 class="name">Melissa Kaganovich, CSPO</h3>
+                                <p class="sujet">Product Manager</p>
+                                <div class="connection"><i class="fas fa-link"></i> Geneviève Therrien et 45 autres relations</div>
+                            </div>
+                            
+                            <div class="box col-lg-auto d-flex justify-content-center ">
+                                <button type="button" class="btn btn2 rounded-0 text-secondary mt-5">Ignorer</button>
+                                <button type="button" class="btn btn1 rounded-0 me-2 my-4 mt-5">Accepter</button>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row border border-dark-subtle bg-secondary-subtle"> 
+                            <div class="col-lg-auto p-3">
+                                <img class="img-thumbnail rounded-circle" src="images/mel.jpg" alt="Photo Profile" height="110" width="110" class="rounded-circle"/>
+                            </div>
+                            <div class="col-lg text-start pt-3">
+                                <h3 class="name">Melissa Kaganovich, CSPO</h3>
+                                <p class="sujet">Product Manager</p>
+                                <div class="connection"><i class="fas fa-link"></i> Geneviève Therrien et 45 autres relations</div>
+                            </div>
+                            
+                            <div class="box col-lg-auto d-flex justify-content-center ">
+                                <button type="button" class="btn btn2 rounded-0 text-secondary mt-5">Ignorer</button>
+                                <button type="button" class="btn btn1 rounded-0 me-2 my-4 mt-5">Accepter</button>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row border border-dark-subtle bg-secondary-subtle"> 
+                            <div class="col-lg-auto p-3">
+                                <img class="img-thumbnail rounded-circle" src="images/mel.jpg" alt="Photo Profile" height="110" width="110" class="rounded-circle"/>
+                            </div>
+                            <div class="col-lg text-start pt-3">
+                                <h3 class="name">Melissa Kaganovich, CSPO</h3>
+                                <p class="sujet">Product Manager</p>
+                                <div class="connection"><i class="fas fa-link"></i> Geneviève Therrien et 45 autres relations</div>
+                            </div>
+                            
+                            <div class="box col-lg-auto d-flex justify-content-center ">
+                                <button type="button" class="btn btn2 rounded-0 text-secondary mt-5">Ignorer</button>
+                                <button type="button" class="btn btn1 rounded-0 me-2 my-4 mt-5">Accepter</button>
+                                
+                            </div>
+                        </div>
+                        <div class="row border border-dark-subtle"> 
+                            <div class="col-lg">
+                                <p class="text-center" ><a href="#" class="Plus text-center">Voir plus</a></p>
+                            </div>
+                            
+                        </div>
+                    </section>
+                    <!--Invitation-->
+                </div>
+                
+                <!--Réseau-->
+                <div class="row">
+                    <div class=" col-md-12 "> 
+                        <div class="bg-light mt-4 blk-reseau p-3" id="Reseau">
+                            <h3 class="text-start">Personnes avec des rôles similaires que vous pourriez connaître</h3>
+                            <a href="#" class="text-end"><h3>Tous les voir</h3></a>  
+                            <div class="row ">
+                                <div class="col-6 col-md-6 col-lg-6 col-xl-3 p-0">
+                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+                                        <div class="card p-4"> 
+                                            <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+                                                <button class="btn btn-secondary"> <img src="images/ge.jpg" height="110" width="110" class="rounded-circle"></button> 
+                                                <span class="name mt-3">Geneviève Therrien, FICA, FSA</span> 
+                                                <span class="idd">Conseillère stratégique, Gouvernance, Tarification et Régimes à prestations déterminées</span> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                                                    <span class="idd1"></span>
+                                                </div> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
+                                                    <span class="follow"><i class="fas fa-link"></i> 388 Connections</span>
+                                                </div> 
+                                                <div class=" d-flex mt-2"> 
+                                                    <button class="btn1">Se connecter</button> 
+                                                </div>   
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6 col-xl-3 p-0">
+                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+                                        <div class="card p-4"> 
+                                            <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+                                                <button class="btn btn-secondary"> <img src="images/max.jpg" height="110" width="110" class="rounded-circle"></button> 
+                                                <span class="name mt-3">Maxime Séchet</span> 
+                                                <span class="idd">Ébéniste chez NOMAD VAN</span> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                                                    <span class="idd1"></span>
+                                                </div> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
+                                                    <span class="follow"><i class="fas fa-link"></i> 38 Connections</span>
+                                                </div> 
+                                                <div class=" d-flex mt-2"> 
+                                                    <button class="btn1">Se connecter</button> 
+                                                </div>   
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6 col-xl-3 p-0">
+                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+                                        <div class="card p-4"> 
+                                            <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+                                                <button class="btn btn-secondary"> <img src="images/1516251309923.jpg" height="110" width="110" class="rounded-circle"></button> 
+                                                <span class="name mt-3">Eric Therrien, Ing</span> 
+                                                <span class="idd">Program Lead</span> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                                                    <span class="idd1"></span>
+                                                </div> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
+                                                    <span class="follow"><i class="fas fa-link"></i> 456 Connections</span>
+                                                </div> 
+                                                <div class=" d-flex mt-2"> 
+                                                    <button class="btn1">Se connecter</button> 
+                                                </div>   
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6 col-xl-3 p-0">
+                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+                                        <div class="card p-4"> 
+                                            <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+                                                <button class="btn btn-secondary"> <img src="images/cla.jpg" height="110" width="110" class="rounded-circle"></button> 
+                                                <span class="name mt-3">Clarence Therrien, MBA</span> 
+                                                <span class="idd">Conseillère en mesures d’urgence et sécurité civile</span> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                                                    <span class="idd1"></span>
+                                                </div> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
+                                                    <span class="follow"><i class="fas fa-link"></i> 123 Connections</span>
+                                                </div> 
+                                                <div class=" d-flex mt-2"> 
+                                                    <button class="btn1">Se connecter</button> 
+                                                </div>   
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-6 col-md-6 col-lg-6 col-xl-3 p-0">
+                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+                                        <div class="card p-4"> 
+                                            <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+                                                <button class="btn btn-secondary"> <img src="images/dani.jpg" height="110" width="110" class="rounded-circle"></button> 
+                                                <span class="name mt-3">Daniel Inhaber</span> 
+                                                <span class="idd">Currently pursuing studies in Mechanical Engineering</span> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                                                    <span class="idd1"></span>
+                                                </div> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
+                                                    <span class="follow"><i class="fas fa-link"></i> 500+ Connections</span>
+                                                </div> 
+                                                <div class=" d-flex mt-2"> 
+                                                    <button class="btn1">Se connecter</button> 
+                                                </div>   
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6 col-xl-3 p-0">
+                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+                                        <div class="card p-4"> 
+                                            <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+                                                <button class="btn btn-secondary"> <img src="images/an.jpg" height="110" width="110" class="rounded-circle"></button> 
+                                                <span class="name mt-3">Annie Fontaine</span> 
+                                                <span class="idd">Architecture</span> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                                                    <span class="idd1"></span>
+                                                </div> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
+                                                    <span class="follow"><i class="fas fa-link"></i> 341 Connections</span>
+                                                </div> 
+                                                <div class=" d-flex mt-2"> 
+                                                    <button class="btn1">Se connecter</button> 
+                                                </div>   
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6 col-xl-3 p-0">
+                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+                                        <div class="card p-4"> 
+                                            <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+                                                <button class="btn btn-secondary"> <img src="images/an2.jpg" height="110" width="110" class="rounded-circle"></button> 
+                                                <span class="name mt-3">Annie Leblanc</span> 
+                                                <span class="idd">Gestionnaire, Opérations Cliniques chez Altasciences (formerly Alliance Contract Pharma)</span> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                                                    <span class="idd1"></span>
+                                                </div> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
+                                                    <span class="follow"><i class="fas fa-link"></i> 23 Connections</span>
+                                                </div> 
+                                                <div class=" d-flex mt-2"> 
+                                                    <button class="btn1">Se connecter</button> 
+                                                </div>   
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6 col-xl-3 p-0">
+                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+                                        <div class="card p-4"> 
+                                            <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+                                                <button class="btn btn-secondary"> <img src="images/dan.jpg" height="110" width="110" class="rounded-circle"></button> 
+                                                <span class="name mt-3">Dany Beland</span> 
+                                                <span class="idd">Director Of Engineering at A.Lassonde Inc.</span> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                                                    <span class="idd1"></span>
+                                                </div> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
+                                                    <span class="follow"><i class="fas fa-link"></i> 500+ Connections</span>
+                                                </div> 
+                                                <div class=" d-flex mt-2"> 
+                                                    <button class="btn1">Se connecter</button> 
+                                                </div>   
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Réseau-->
+                <!--Pages-->
+                <div class="row">
+                    <div class=" col-md-12 mt-3" id="Page">
+                        <div class="bg-light">
+                            <h3 class="text-start">Des persones, que vous suivez, suivent également ces pages</h3>
+                            <a href="#" class="text-end"><h3>Tous les voir</h3></a>  
+                            <div class="row p-3">
+                                <div class="col-6 col-md-6 col-lg-3">
+                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+                                        <div class="card p-4"> 
+                                            <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+                                                <button class="btn btn-secondary"> <img src="images/cybens.jpg" height="110" width="110" class="rounded-3" /></button> 
+                                                <span class="name mt-3">Cybens Technologies</span> 
+                                                <span class="idd"></span> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                                                    <span class="idd1"></span> 
+                                                </div> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
+                                                    <span class="follow"><i class="fa-solid fa-user-group"></i> 90 000 Abonnés</span>
+                                                </div> 
+                                                <div class=" d-flex mt-2"> 
+                                                    <button class="btn1  ">Suivre</button> 
+                                                </div> 
+                                                
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-3">
+                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+                                        <div class="card p-4"> 
+                                            <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+                                                <button class="btn btn-secondary"> <img src="images/1688584496716.jpg" height="110" width="110" class="rounded-3" /></button> 
+                                                <span class="name mt-3">Desjardins Entreprise</span> 
+                                                <span class="idd"></span> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                                                    <span class="idd1"></span> 
+                                                </div> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
+                                                    <span class="follow"><i class="fa-solid fa-user-group"></i> 34 562</span>
+                                                </div> 
+                                                <div class=" d-flex mt-2"> 
+                                                    <button class="btn1  ">Suivre</button> 
+                                                </div> 
+                                                
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-3">
+                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+                                        <div class="card p-4"> 
+                                            <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+                                                <button class="btn btn-secondary"> <img src="images/lassonde_logo.jpg" height="110" width="110" class="rounded-3" /></button> 
+                                                <span class="name mt-3">Lassonde</span> 
+                                                <span class="idd"></span> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                                                    <span class="idd1"></span> 
+                                                </div> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
+                                                    <span class="follow"><i class="fa-solid fa-user-group"></i> 2 900 Abonnés</span>
+                                                </div> 
+                                                <div class=" d-flex mt-2"> 
+                                                    <button class="btn1  ">Suivre</button> 
+                                                </div> 
+                                                
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-3">
+                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+                                        <div class="card p-4"> 
+                                            <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+                                                <button class="btn btn-secondary"> <img src="images/heroux_devtek_logo.jpg" height="110" width="110" class="rounded-3" /></button> 
+                                                <span class="name mt-3">Héroux-Devtek</span> 
+                                                <span class="idd"></span> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                                                    <span class="idd1"></span> 
+                                                </div> 
+                                                <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
+                                                    <span class="follow"><i class="fa-solid fa-user-group"></i> 54 987 Abonnés</span>
+                                                </div> 
+                                                <div class=" d-flex mt-2"> 
+                                                    <button class="btn1  ">Suivre</button> 
+                                                </div> 
+                                                
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <!--Page-->
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- FONT AWEOMES
+    Maison: f015 <i class="fa-solid fa-house"></i>
+    2 personnes: f500 <i class="fa-solid fa-user-group"></i>
+    valise: f0b1 <i class="fa-solid fa-briefcase"></i>
+    Bulle Message: f4ad <i class="fa-solid fa-comment-dots"></i>
+    Cloche: f0f3 <i class="fa-solid fa-bell"></i>
+    Photo Profile: ----
+    9 carrés: f00a <i class="fa-solid fa-table-cells"></i>
+    1 personne: f007 <i class="fa-solid fa-user"></i>
+    3 personnes: f0c0 <i class="fa-solid fa-users"></i>
+    Calendrier: f073 <i class="fa-regular fa-calendar-days"></i>
+    Pages (immeuble): f15c <i class="fa-regular fa-file-lines"></i>
+    Journal: f1ea <i class="fa-regular fa-newspaper"></i>
+    #: 23 <i class="fa-solid fa-hashtag"></i>
+    LinkedIn fav: f08c <i class="fa-brands fa-linkedin"></i>
+    Loupe: f002 <i class="fa-solid fa-magnifying-glass"></i> 
+-->

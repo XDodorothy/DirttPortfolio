@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;;
+}
+
+#Invitation h3 {
+  display: inline;
+  font-size: 20px;
+}
+
+#Invitation .card{
+  width: auto;
+  
+} 
+#Invitation a {
+  text-decoration: none;
+  color: grey;
+}    
+#Invitation .Plus{
+  color: steelblue;
+} 
+#Invitation .connection
+{
+  color: gray;
+}  
+#Invitation .btn1 {
+  border: 2px solid Steelblue;
+  color: steelblue;
+  height: 40px;
+  width: 100px;        
+}
+#Invitation .btn2 {
+  
+  height: 40px;
+  width: 100px;        
+}
+#Invitation .btn1:hover {
+  background-color: #0077b5;
+  color: white;
+  transition: all 0.5s;
+}

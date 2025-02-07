@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.reseau {
+  height: 360px;
+}
+.pages{
+  height: 260px;
+}
+.footer{
+  height: 300px;
+}
+.menuL{
+  height: 300px;
+}
+.MenuT{
+  min-height: 55px;
+}
+.invitations{
+  height: 300px;
+}
+.enlight{
+  height: 200px;
+}
+
+.side_bar {
+  top : 70px;
+  z-index: -1;
+}
