@@ -34,6 +34,7 @@
                 }
             ]
         },
+
         {
             "id": 1,
             "author": "DiRTT",
@@ -69,6 +70,7 @@
                 }
             ]
         },
+       
         {
             "id": 2,
             "author": "DiRTT",
@@ -490,6 +492,43 @@
                 {
                     
                     "name": "Adobe XD"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "author": "DiRTT",
+            "title": "Mon premier site web",
+            "description": "Ce site web a été créé pour mon plaisir personnel afin d'informer mes proches de mon petit commerce de beurre d'arachides en vrac ",
+            "url": "https://bdagazelle.great-site.net/",
+            "urlToImage1": "images/BDA.png",
+            "urlToImage": [
+                { "lien": "images/BDA.png"}
+            ],
+            "video": null,
+            "publishedAt": "2021",
+            "contrainte": "J'ai suivi une vidéo Youtube et personnalisé afin d'adapter à mes besoins.",
+            "genres": [
+                {
+                  
+                    "name": "Frontend"
+                },
+                {
+                    
+                    "name": "Design"
+                }
+            ],
+            "langues": [
+                {
+                  
+                    "name": "HTML/CSS"
+                }
+
+            ],
+            "logiciels": [
+                {
+                    
+                    "name": "VSC"
                 }
             ]
         }   

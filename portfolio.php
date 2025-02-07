@@ -50,7 +50,7 @@
                 <div class="uia-card__intro">
                   <span class="uia-timeline__year" aria-hidden="true">2024</span>
                   <h3 id="timeline-demo-6-heading-1" class="page__job-name uia-heading ra-heading titrePro"><a
-                      href="projects.php?q=<?php echo $articles[11]['id'] ?>&titre=<?php echo $articles[11]['title'] ?>"> </a></h3>
+                      href="projects.php?q=<?php echo $articles[11]['id'] ?>&titre=<?php echo $articles[11]['title'] ?>"><?php echo $articles[11]['title'] ?></a></h3>
                   <?php
                   $genres = $articles[11]['genres'];
                   foreach ($genres as $index => $genre) : ?>
@@ -391,6 +391,36 @@
                     <div class="text"><a href="projects.php?q=<?php echo $articles[0]['id'] ?>&titre=<?php echo $articles[0]['title'] ?>">Voir</a></div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </section>
+          <section class="uia-timeline__group" aria-labelledby="timeline-demo-6-heading-1">
+            <div class="uia-timeline__dot"></div>
+            <div class="uia-timeline__point uia-card">
+              <div class="uia-card__container">
+                <div class="uia-card__intro">
+                  <span class="uia-timeline__year" aria-hidden="true">2021</span>
+                  <h3 id="timeline-demo-6-heading-1" class="page__job-name uia-heading ra-heading titrePro"><a
+                      href="projects.php?q=<?php echo $articles[12]['id'] ?>&titre=<?php echo $articles[12]['title'] ?>"><?php echo $articles[12]['title'] ?></a></h3>
+                  <?php
+                  $genres = $articles[12]['genres'];
+                  foreach ($genres as $index => $genre) : ?>
+                    <span class='categorie'><?php echo $genre['name']; ?></span>
+                    <?php if ($index < count($genres) - 1) : ?>
+                      <span> | </span>
+                    <?php endif; ?>
+                  <?php endforeach; ?>
+
+                </div>
+                <div class="uia-card__body container">
+                  <img src="<?php echo $articles[12]['urlToImage1'] ?>" alt="ApiNews" class="image" style="width:100%">
+                  <div class="middle">
+                    <div class="text"><a href="projects.php?q=<?php echo $articles[12]['id'] ?>&titre=<?php echo $articles[1]['title'] ?>">Voir</a></div>
+                  </div>
+                </div>
+                <map name="fooz" class="d-flex flex-row-reverse">
+                  <img class="area" src="images/raccoon.png" alt="raccoon" />
+                </map>
               </div>
             </div>
           </section>
