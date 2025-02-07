@@ -108,7 +108,7 @@
                 <div class="uia-card__intro">
                   <span class="uia-timeline__year" aria-hidden="true">2024</span>
                   <h3 id="timeline-demo-6-heading-1" class="page__job-name uia-heading ra-heading titrePro"><a
-                      href="projects.php?q=<?php echo $articles[9]['id'] ?>&titre=<?php echo $articles[9]['title'] ?>"> </a></h3>
+                      href="projects.php?q=<?php echo $articles[9]['id'] ?>&titre=<?php echo $articles[9]['title'] ?>"><?php echo $articles[9]['title'] ?></a></h3>
                   <?php
                   $genres = $articles[9]['genres'];
                   foreach ($genres as $index => $genre) : ?>
