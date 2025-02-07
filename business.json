@@ -111,7 +111,7 @@
             "author": "DiRTT",
             "title": "Kym Turgeon Hypnothérapie - HTML/CSS pures",
             "description": "Ce site web avait été fait afin de me pratiquer à travailler avec les languages HTML et CSS et pour monter un site web d'une amie qui commençait sa carrière en hypnothérapie. Ce travail a été fait en première session de mon programme. NOTE: Un autre projet de même site web fut créé avec WordPress et le thème de Divi.",
-            "url": "http://localhost/integrationIII/Portfolio/Intégration/KymHypnose-HTMLCSS/index.html",
+            "url": "http://localhost/Portfolio/Intégration/KymHypnose-HTMLCSS/index.html",
             "urlToImage1": "images/kymHTML.png",
             "urlToImage": [
                 { "lien": "images/kymHTML.png"}
@@ -256,7 +256,7 @@
             "author": "DiRTT",
             "title": "Page d'accueil LinkedIn et ses atouts",
             "description": "Projet de deuxième session ayant pour but de faire une page LinkedIn avec HTML et CSS pures. Il se devait d'être responsive pour le mode ordinateur (1080px), tablette (820px) et mobile (490px).",
-            "url": "http://localhost/integrationIII/Portfolio/Intégration/PageLinkedIn-HTMLCSS/index.html",
+            "url": "http://localhost/Portfolio/Intégration/PageLinkedIn-HTMLCSS/index.html",
             "urlToImage1": "images/LinkedIn.png",
             "urlToImage": [
                 { "lien": "images/LinkedIn.png"}
@@ -341,7 +341,7 @@
             "author": "DiRTT",
             "title": "Site de Nouvelles avec API Rest",
             "description": "Réalisation d’un site web php / js présentant des articles de nouvelles basés sur une API Rest.",
-            "url": "http://localhost/intégrationIII/Portfolio/Programmation/SitedeNouvelles/index.php",
+            "url": "http://localhost/Portfolio/Programmation/SitedeNouvelles/index.php",
             "urlToImage1": "images/APINews.png",
             "urlToImage": [
                 { "lien": "images/APINews.png"}
