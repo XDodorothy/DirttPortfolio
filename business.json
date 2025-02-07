@@ -339,7 +339,7 @@
             "author": "DiRTT",
             "title": "Site de Nouvelles avec API Rest",
             "description": "Réalisation d’un site web php / js présentant des articles de nouvelles basés sur une API Rest.",
-            "url": "http://localhost/intégrationIII/TP1",
+            "url": "http://localhost/intégrationIII/Portfolio/Programmation/SitedeNouvelles/index.php",
             "urlToImage1": "images/APINews.png",
             "urlToImage": [
                 { "lien": "images/APINews.png"}
